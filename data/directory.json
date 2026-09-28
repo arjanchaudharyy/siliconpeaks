@@ -153,13 +153,13 @@
     },
     {
       "name": "Addressgraph",
-      "url": "https://www.addressgraph.com.np",
-      "domain": "addressgraph.com.np",
+      "url": "https://kataho.app/",
+      "domain": "kataho.app",
       "category": "Technology & business",
-      "logoSource": "https://www.google.com/s2/favicons?domain=addressgraph.com.np&sz=128",
+      "logoSource": "https://kataho.app/frontend/assets/images/logo/favicon.png",
       "initials": "AG",
-      "detail": "addressgraph.com.np",
-      "logo": "/assets/logos/addressgraph-com-np.png"
+      "detail": "kataho.app",
+      "logo": "/assets/logos/kataho.png"
     },
     {
       "name": "Adex",
@@ -2520,16 +2520,16 @@
       "description": "UK diplomatic mission supporting bilateral trade and development",
       "url": "https://www.gov.uk/world/organisations/british-embassy-kathmandu",
       "domain": "www.gov.uk",
-      "logoSource": "",
-      "logo": "/assets/logos/www-gov-uk.png"
+      "logoSource": "https://www.gov.uk/assets/frontend/govuk_publishing_components/crests/org_crest_18px_x2-d7e9ca2aac7d1a9dacc57634cb4acf442e21f2744086a105cc8ec3618f13aeee.png",
+      "logo": "/assets/logos/british-embassy.png"
     },
     {
       "name": "French Embassy Nepal",
       "description": "Embassy of France, promoting Franco-Nepali cooperation",
-      "url": "https://np.ambafrance.org",
-      "domain": "np.ambafrance.org",
-      "logoSource": "",
-      "logo": "/assets/logos/np-ambafrance-org.png"
+      "url": "https://np.diplomatie.gouv.fr/",
+      "domain": "np.diplomatie.gouv.fr",
+      "logoSource": "https://np.diplomatie.gouv.fr/themes/custom/sdp/favicon.ico",
+      "logo": "/assets/logos/french-embassy.png"
     },
     {
       "name": "Japanese Embassy Nepal",
@@ -2537,31 +2537,31 @@
       "url": "https://www.np.emb-japan.go.jp",
       "domain": "www.np.emb-japan.go.jp",
       "logoSource": "",
-      "logo": "/assets/logos/www-np-emb-japan-go-jp.png"
+      "logo": "/assets/logos/japan-flag.svg"
     },
     {
       "name": "Swiss Embassy Nepal",
       "description": "Supporting governance and economic development",
-      "url": "https://www.eda.admin.ch/kathmandu",
-      "domain": "www.eda.admin.ch",
-      "logoSource": "",
-      "logo": "/assets/logos/www-eda-admin-ch.png"
+      "url": "https://www.schweiz-nepal.eda.admin.ch/en/embassy-of-switzerland",
+      "domain": "schweiz-nepal.eda.admin.ch",
+      "logoSource": "https://www.schweiz-nepal.eda.admin.ch/images/swiss-logo-flag.svg",
+      "logo": "/assets/logos/swiss-embassy.svg"
     },
     {
       "name": "German Embassy Nepal",
       "description": "Partner in technical cooperation and infrastructure",
-      "url": "https://np.diplo.de",
-      "domain": "np.diplo.de",
-      "logoSource": "",
-      "logo": "/assets/logos/np-diplo-de.png"
+      "url": "https://kathmandu.diplo.de/np-de",
+      "domain": "kathmandu.diplo.de",
+      "logoSource": "https://www.auswaertiges-amt.de/resource/crblob/772/47f731c5aa09d415e52ad2d35c55a7be/aamt-logo-sp-data.svg",
+      "logo": "/assets/logos/german-embassy.svg"
     },
     {
       "name": "Australian Embassy Nepal",
       "description": "Education, trade, and humanitarian programs",
       "url": "https://nepal.embassy.gov.au",
       "domain": "nepal.embassy.gov.au",
-      "logoSource": "",
-      "logo": "/assets/logos/nepal-embassy-gov-au.png"
+      "logoSource": "https://nepal.embassy.gov.au/app/images/coat-of-arms-black-80.png",
+      "logo": "/assets/logos/australian-embassy.png"
     },
     {
       "name": "Canada in Nepal",

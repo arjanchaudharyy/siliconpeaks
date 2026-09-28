@@ -99,7 +99,6 @@ footer,body.light footer{padding:0 44px 26px;background:#f5f8fb;border-top:1px s
 #manifesto,body.light #manifesto{padding-top:38px}
 #manifesto .w-text{padding-top:0;padding-bottom:56px}
 #manifesto .eyebrow-rule{margin-bottom:18px}
-.press-more{margin-top:34px;text-align:center;font:400 italic 18px/1.4 Literata,Georgia,serif;color:#607a94}
 
 /* Return to the hero landscape, then explore Nepal's eight highest summits. */
 .footer-scene{position:relative;max-width:1600px;margin:0 -44px;background:#f4f8fb;isolation:isolate}
@@ -354,6 +353,8 @@ img.inv-fav,img.co-fav{padding:0!important;object-fit:contain}
 #investors .inv-fav{width:28px;height:28px;flex:0 0 28px}
 .champ-card,body.light .champ-card{border-radius:0;box-shadow:none;border-color:var(--line);transition:background .18s,border-color .18s}
 .champ-card:hover{transform:none;box-shadow:none}
+.champ-icon,body.light .champ-icon{display:grid;place-items:center;width:48px;height:48px;flex:0 0 48px;border-radius:0;overflow:hidden;line-height:1}
+.champ-icon .champ-fav{display:block;width:36px;height:36px;padding:0!important;object-fit:contain}
 .capital-notes{gap:0;border-block:1px solid var(--line);margin:32px 0 48px}
 .capital-notes article{border:0;border-right:1px solid var(--line);border-radius:0;padding:28px;background:transparent}
 .capital-notes article:last-child{border-right:0}.capital-notes p{font-size:15px;line-height:1.7}.capital-notes a{font-size:12px;min-height:32px}.capital-notes .secondary-source{font-size:12px}

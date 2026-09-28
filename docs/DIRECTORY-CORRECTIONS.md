@@ -14,10 +14,18 @@ The following changes were checked against the supplied official websites. Logos
 | Naamche Labs | https://naamchelabs.com/ | Official favicon; added separately from the existing Naamche company |
 | Flowli Studio | https://flowli.studio/ | Official icon, resized to 160 pixels |
 | Y Combinator | https://www.ycombinator.com/ | Existing vector confirmed against YC's own navigation logo; excess SVG padding removed and display size increased |
+| Addressgraph | https://kataho.app/ | User-supplied product URL with Kataho's official app mark |
+| British Embassy Nepal | https://www.gov.uk/world/organisations/british-embassy-kathmandu | Official embassy header coat of arms, replacing the generic GOV.UK icon |
+| French Embassy Nepal | https://np.diplomatie.gouv.fr/ | Official Marianne favicon, converted from ICO to PNG |
+| Swiss Embassy Nepal | https://www.schweiz-nepal.eda.admin.ch/en/embassy-of-switzerland | Official header shield in SVG |
+| German Embassy Nepal | https://kathmandu.diplo.de/np-de | Official foreign office eagle in SVG; updated embassy URL verified in the ministry directory |
+| Australian Embassy Nepal | https://nepal.embassy.gov.au/ | Official embassy header coat of arms |
 
 One Point at `onepoint.com.np` was removed as requested. OnePoint Financial at `myonepoint.com` remains. The directory now contains 113 unique companies, rendered as 114 homepage cards including the final placeholder, and 48 investors.
 
-Exact asset URLs and transformations are recorded in [directory.json](../data/directory.json) and [logo-audit.json](../data/logo-audit.json). All ten reviewed images decode in Chromium. Updated links appear on the homepage, search pages, structured data and LLM directory output.
+Exact asset URLs and transformations are recorded in [directory.json](../data/directory.json) and [logo-audit.json](../data/logo-audit.json). All reviewed images decode in Chromium. Updated company links appear on the homepage, search pages, structured data and LLM directory output; embassy links appear on the homepage and LLM directory.
+
+Embassy cards now contain one mark, without duplicate flag emoji. Their square frames and SVG padding are consistent at desktop and mobile widths. Existing U.S. and Canadian marks are retained. Japan currently uses a clean national flag in SVG, not a verified embassy-specific logo: its embassy and foreign ministry websites returned access denied, so the owner approved the national flag as the interim mark.
 
 ## Layout follow-up
 
@@ -34,7 +42,6 @@ All 10 tests pass. Desktop and mobile checks find no horizontal overflow, no sta
 
 These older records retain readable names, initials or the appropriate flag. This list concerns logo availability, not whether the organizations exist.
 
-- Addressgraph
 - Dots n Dashes
 - Facet Tech
 - Jasper IT
@@ -44,8 +51,9 @@ These older records retain readable names, initials or the appropriate flag. Thi
 - Rite Teams
 - Smarten Tech
 - Trilokya Tech
-- French Embassy Nepal
 
 ![Section transition](screenshots/refined-section-transition.jpg)
 
 ![Centered community heading](screenshots/refined-community-heading.jpg)
+
+![Corrected embassy logos](screenshots/refined-embassy-logos.jpg)

@@ -123,10 +123,11 @@
   {
     "name": "Addressgraph",
     "group": "companies",
-    "path": "/assets/logos/addressgraph-com-np.png",
-    "available": false,
-    "bytes": 0,
-    "source": "https://www.google.com/s2/favicons?domain=addressgraph.com.np&sz=128"
+    "path": "/assets/logos/kataho.png",
+    "available": true,
+    "bytes": 4340,
+    "source": "https://kataho.app/frontend/assets/images/logo/favicon.png",
+    "review": "User-supplied product URL; official Kataho app mark, checked against its header wordmark."
   },
   {
     "name": "Adex",
@@ -2169,50 +2170,56 @@
   {
     "name": "British Embassy Nepal",
     "group": "organizations",
-    "path": "/assets/logos/www-gov-uk.png",
+    "path": "/assets/logos/british-embassy.png",
     "available": true,
-    "bytes": 1971,
-    "source": ""
+    "bytes": 3851,
+    "source": "https://www.gov.uk/assets/frontend/govuk_publishing_components/crests/org_crest_18px_x2-d7e9ca2aac7d1a9dacc57634cb4acf442e21f2744086a105cc8ec3618f13aeee.png",
+    "review": "Royal coat of arms used by the British Embassy Kathmandu organization header, replacing the generic GOV.UK icon."
   },
   {
     "name": "French Embassy Nepal",
     "group": "organizations",
-    "path": "/assets/logos/np-ambafrance-org.png",
-    "available": false,
-    "bytes": 0,
-    "source": ""
+    "path": "/assets/logos/french-embassy.png",
+    "available": true,
+    "bytes": 1785,
+    "source": "https://np.diplomatie.gouv.fr/themes/custom/sdp/favicon.ico",
+    "review": "Official Marianne favicon, converted losslessly from ICO to PNG. Previous embassy URL redirects to this government website."
   },
   {
     "name": "Japanese Embassy Nepal",
     "group": "organizations",
-    "path": "/assets/logos/www-np-emb-japan-go-jp.png",
+    "path": "/assets/logos/japan-flag.svg",
     "available": true,
-    "bytes": 478,
-    "source": ""
+    "bytes": 151,
+    "source": "",
+    "review": "User-approved Japanese national flag in SVG at 3:2 proportions. This is not an embassy-specific logo. Official embassy and MOFA branding sources returned access denied."
   },
   {
     "name": "Swiss Embassy Nepal",
     "group": "organizations",
-    "path": "/assets/logos/www-eda-admin-ch.png",
+    "path": "/assets/logos/swiss-embassy.svg",
     "available": true,
-    "bytes": 1207,
-    "source": ""
+    "bytes": 467,
+    "source": "https://www.schweiz-nepal.eda.admin.ch/images/swiss-logo-flag.svg",
+    "review": "Official Swiss shield from the current Nepal embassy website header, unchanged."
   },
   {
     "name": "German Embassy Nepal",
     "group": "organizations",
-    "path": "/assets/logos/np-diplo-de.png",
+    "path": "/assets/logos/german-embassy.svg",
     "available": true,
-    "bytes": 1699,
-    "source": ""
+    "bytes": 8276,
+    "source": "https://www.auswaertiges-amt.de/resource/crblob/772/47f731c5aa09d415e52ad2d35c55a7be/aamt-logo-sp-data.svg",
+    "review": "Official Federal Foreign Office federal eagle. Current embassy URL listed by the foreign office; the old np.diplo.de URL now redirects to its global mission directory."
   },
   {
     "name": "Australian Embassy Nepal",
     "group": "organizations",
-    "path": "/assets/logos/nepal-embassy-gov-au.png",
+    "path": "/assets/logos/australian-embassy.png",
     "available": true,
-    "bytes": 437,
-    "source": ""
+    "bytes": 4970,
+    "source": "https://nepal.embassy.gov.au/app/images/coat-of-arms-black-80.png",
+    "review": "Official coat of arms from the Australian Embassy Nepal website header, unchanged."
   },
   {
     "name": "Canada in Nepal",
