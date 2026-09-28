@@ -8,10 +8,12 @@ const baseline=JSON.parse(read('data/preservation.json'));
 const normalize=s=>s.replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&nbsp;/g,' ').replace(/&#39;|&apos;/g,"'").replace(/&quot;/g,'"').replace(/\s+/g,' ').trim();
 const text=normalize(html);
 test('all original directory entries, airlines and clocks survive the redesign',()=>{
- for(const [selector,count] of Object.entries(baseline).filter(([k])=>k.startsWith('.'))){
+ for(const [selector,count] of Object.entries(baseline).filter(([k])=>k.startsWith('.')&&k!=='.press-card')){
   const actual=[...html.matchAll(/\bclass="([^"]+)"/g)].filter(m=>m[1].split(/\s+/).includes(selector.slice(1))).length;
-  assert.equal(actual,count+(['.inv-name','.press-card'].includes(selector)?1:0),selector); // Entrepreneurs First and one sourced VentureBeat article added.
+  assert.equal(actual,count+(selector==='.inv-name'?1:0),selector); // Entrepreneurs First was added to the original investor directory.
  }
+ // The press layout is curated, but every original article or publication URL remains.
+ for(const item of JSON.parse(read('data/directory.json')).press)assert.ok(html.includes(item.url.replaceAll('&','&amp;')),item.url);
  assert.equal((html.match(/<h1\b/g)||[]).length,1);
  assert.ok(!html.includes('{{'));
 });
