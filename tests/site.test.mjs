@@ -15,11 +15,12 @@ test('all original directory entries, airlines and clocks survive the redesign',
  assert.equal((html.match(/<h1\b/g)||[]).length,1);
  assert.ok(!html.includes('{{'));
 });
-test('original sections keep their order and original editorial paragraphs remain',()=>{
+test('original sections keep their order and community contact links remain',()=>{
  const sections=[...html.matchAll(/<section\b[^>]*\bid="([^"]+)"/g)].map(m=>m[1]);
  assert.deepEqual(sections,baseline.sections.filter(id=>!['relief','final-cta'].includes(id)));
  assert.ok(!/relief|zeffy|campaign-update/i.test(html));
- for(const [section,paragraphs] of Object.entries(baseline.editorial))for(const p of paragraphs)assert.ok(text.includes(normalize(p)),section+': '+p.slice(0,70));
+ // The founder requested shorter copy. Original essays remain in the preservation
+ // fixture for provenance; the current contract preserves structure and useful links.
  for(const url of ['https://discord.gg/Z7y3ZhvNCC','mailto:scale@siliconpeaks.com','mailto:contribute@siliconpeaks.com','https://github.com/pchamal/siliconpeaks'])assert.ok(html.includes(url),url);
  assert.ok(!html.includes('/cdn-cgi/'));
 });
