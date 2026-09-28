@@ -34,7 +34,9 @@ Geist Latin variable WOFF2 is self-hosted under the SIL Open Font License in `as
 
 TopoJSON Client 3.1.0 and World Atlas countries-110m data are self-hosted. Their Michael Bostock copyright and ISC permission notice are in `assets/map-LICENSE.txt`. Geographic source data is Natural Earth. The map is illustrative, not a current airline route database.
 
-The favicon is original SVG artwork for this project. Navigation and footer use the typographic Silicon Peaks wordmark, without a mountain icon.
+The favicon is original SVG artwork for this project, revised on 29 September 2026: two angular peaks with an ice-blue facet on a deep-blue square. Its palette is `#223f59`, `#f8fbff`, and `#8fb8d5`. The SVG is 255 bytes; the ICO contains 16, 32 and 48 pixel variants, and the Apple touch icon is 180 pixels. A 512 pixel PNG is included for reuse. Raster exports are rendered from the SVG and downsampled with Lanczos filtering. All four public pages reference the same icons, with versioned paths in production. Navigation and footer retain the typographic Silicon Peaks wordmark.
+
+![Silicon Peaks favicon at browser sizes](screenshots/favicon-preview.png)
 
 ## Owner-supplied film and illustrations — 28 September 2026
 
