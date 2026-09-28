@@ -6,3 +6,9 @@ main{max-width:1184px;margin:0 auto;padding:155px 0 80px}.breadcrumbs{display:fl
 @media(max-width:600px){#nav{width:calc(100% - 28px);min-height:60px;padding:10px 15px}.nav-brand{font-size:25px}main{padding-top:122px;margin-inline:22px;padding-bottom:45px}.breadcrumbs{margin-bottom:32px;font-size:10px}.page-heading h1{font-size:38px;letter-spacing:-1.8px;margin-top:18px}.lead{font-size:17px;line-height:1.7}main>p{font-size:12px}.jump-links{font-size:11px;gap:12px 22px;padding-block:16px;margin-top:28px}main section{margin-top:43px}.section-heading h2,.reading h2{font-size:27px}.section-heading p{font-size:12px}.directory-list{grid-template-columns:1fr;gap:8px}.directory-list li>a{padding:17px 18px;min-height:78px}.directory-list strong{font-size:13px}.reading p{font-size:13px;line-height:1.85}.funding-stories{gap:12px}.funding-stories article{padding:23px}.funding-stories h3{font-size:25px}.funding-stories p{font-size:12px}.related{margin-top:45px}footer{margin-inline:22px;align-items:flex-start;flex-direction:column;padding-block:28px}.nav-github svg{width:17px;height:17px}}
 @media(max-width:370px){.nav-brand{font-size:23px}.nav-github{padding:8px}.page-heading h1{font-size:34px}}
 @media(prefers-reduced-motion:reduce){#nav,.directory-list li>a{transition:none}}
+
+/* Match the main directory's readable type and restrained surfaces. */
+body{font-size:16px}#nav{box-shadow:none}.directory-list li>a,.funding-stories article{border-radius:0;box-shadow:none}
+.directory-list li>a:hover{transform:none;box-shadow:none}.directory-list strong{font-size:15px}.directory-list small{font-size:12px}
+main>p,.section-heading p,.reading p,.funding-stories p{font-size:16px;line-height:1.75}
+@media(max-width:700px){.directory-list strong{font-size:15px}main>p,.section-heading p,.reading p,.funding-stories p{font-size:16px}.jump-links a{min-height:44px;display:inline-flex;align-items:center}}
