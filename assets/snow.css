@@ -384,3 +384,8 @@ body.light{--snow:#1d3043;--mist:#495e72;--mist-lo:#526b82;--line:#d7e1ea;--sky-
  .stat-band .stat-n,.stat-band .stat:first-child .stat-n{font-size:34px}.stat-band .stat-l{max-width:none;font-size:12px;line-height:1.5}.stat-band>.source-note{font-size:11px;line-height:1.6;padding:16px}
  .globe-stat-l,body.light .globe-stat-l{font-size:12px}.reach-detail{font-size:11px}
 }
+
+/* Keep spatial motion in the map and gallery, without floating every link. */
+footer .peaks-section .peak-card:hover{transform:none}
+footer .peaks-section .peak-photo img{transition:none}
+footer .peaks-section .peak-card:hover .peak-photo img{transform:none}
