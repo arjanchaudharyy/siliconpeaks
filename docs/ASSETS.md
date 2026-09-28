@@ -1,5 +1,7 @@
 # Asset provenance
 
+For the official company and investor assets added on 29 September 2026, including transformations and remaining unresolved marks, see [directory corrections](DIRECTORY-CORRECTIONS.md). Exact asset URLs are recorded in `data/logo-audit.json`.
+
 ## Photography
 
 The redesign uses licensed photographs, independent of the SecurityPal reference site. No SecurityPal mountain or cloud assets are included.

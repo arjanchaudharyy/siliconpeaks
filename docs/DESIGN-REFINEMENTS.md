@@ -1,5 +1,7 @@
 # Design refinement validation
 
+The follow-up [directory corrections and layout notes](DIRECTORY-CORRECTIONS.md) supersede this first-pass report where noted. Publisher-only links were subsequently removed, the Nepali-inspired divider was restored across main sections, and nine directory entries received verified logo and link updates. YC's rendering was corrected. The original directory data is therefore no longer unchanged in the current revision.
+
 Reviewed on 29 September 2026. This pass refines the Snow redesign without changing the directory data, canonical URLs, image credits, footer artwork or contact destinations.
 
 ## Changes
