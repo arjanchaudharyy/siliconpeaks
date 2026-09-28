@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import {createReadStream} from 'node:fs';
 import path from 'node:path';
 const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json','.txt':'text/plain; charset=utf-8','.xml':'application/xml','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.ico':'image/x-icon','.avif':'image/avif','.webp':'image/webp','.woff2':'font/woff2','.mp4':'video/mp4'};
+types['.mjs']='text/javascript; charset=utf-8';
 const publicFile=p=>p==='/index.html'||/^\/(?:companies|startups|investors)\/index\.html$/.test(p)||/^\/(?:robots\.txt|sitemap\.xml|llms\.txt|llms-full\.txt|lms\.txt|humans\.txt)$/.test(p)||/^\/(?:assets|logos)\//.test(p);
 export function createPreviewServer(root){
  return http.createServer(async(req,res)=>{

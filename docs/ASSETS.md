@@ -76,3 +76,7 @@ All eight photographs were resolved through Wikipedia and the Wikimedia Commons 
 The 28 September review inspected all 277 company, university, investor and organization logo records and checked every rendered image in the browser. Official website assets replaced the Coca-Cola, Kathmandu University, NAAMII (two placements), FOG Ventures and Echowin marks. Techkraft and Codewing now have verified marks and corrected official links. Source URLs are recorded in `data/logo-review-2026-09-28.json`.
 
 DBA and Tectonic Capital used the same GoDaddy parked-domain icon. Those icons are removed. Seventeen records still have no verified image and retain readable names or initials; the French embassy retains its flag. These are listed in `data/logo-audit.json` with `available: false`. Existing domain favicon caches are not a claim that every brand identity has been independently certified.
+
+## Footer artwork, September 28 update
+
+The owner supplied an AI-generated Himalayan panorama for the footer. Responsive WebP exports at 800px and 1600px replace the earlier bridge composite. The image is identified as generated artwork in its alternative text. The eight mountain profiles continue to use credited, real photographs.
