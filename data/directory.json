@@ -172,14 +172,15 @@
       "logo": "/assets/logos/adex-ltd.png"
     },
     {
-      "name": "AITC Intl",
-      "url": "https://www.aitcint.com",
-      "domain": "aitcint.com",
+      "name": "AITC International",
+      "url": "https://aitc.ai/",
+      "domain": "aitc.ai",
       "category": "Technology & business",
-      "logoSource": "https://www.google.com/s2/favicons?domain=aitcint.com&sz=128",
+      "logoSource": "https://aitc.ai/ (header SVG)",
       "initials": "AI",
-      "detail": "aitcint.com",
-      "logo": "/assets/logos/aitcint-com.png"
+      "detail": "aitc.ai",
+      "logo": "/assets/logos/aitc-international.svg",
+      "logoReview": "Official website asset verified 2026-09-29"
     },
     {
       "name": "Alaya",
@@ -192,14 +193,15 @@
       "logo": "/assets/logos/alaya-co.png"
     },
     {
-      "name": "Alpas Tech",
-      "url": "https://www.alpastechnology.com",
+      "name": "Alpas Technology",
+      "url": "https://alpastechnology.com/",
       "domain": "alpastechnology.com",
       "category": "Technology & business",
-      "logoSource": "https://www.google.com/s2/favicons?domain=alpastechnology.com&sz=128",
+      "logoSource": "https://alpastechnology.com/assets/favicon.png",
       "initials": "AT",
       "detail": "alpastechnology.com",
-      "logo": "/assets/logos/alpastechnology-com.png"
+      "logo": "/assets/logos/alpas-technology.png",
+      "logoReview": "Official white logo placed on a dark background for visibility. Verified 2026-09-29"
     },
     {
       "name": "Alpen Labs",
@@ -233,13 +235,14 @@
     },
     {
       "name": "ARKBO Tech",
-      "url": "https://www.arkbo.com.np",
-      "domain": "arkbo.com.np",
+      "url": "https://www.arkbotech.com/",
+      "domain": "arkbotech.com",
       "category": "Technology & business",
-      "logoSource": "https://www.google.com/s2/favicons?domain=arkbo.com.np&sz=128",
+      "logoSource": "https://www.arkbotech.com/icon.png",
       "initials": "AR",
-      "detail": "arkbo.com.np",
-      "logo": "/assets/logos/arkbo-com-np.png"
+      "detail": "arkbotech.com",
+      "logo": "/assets/logos/arkbo-tech.png",
+      "logoReview": "Official website asset verified 2026-09-29"
     },
     {
       "name": "Architect Labs",
@@ -484,6 +487,17 @@
       "logo": "/assets/logos/flextecs-com-np.png"
     },
     {
+      "name": "Flowli Studio",
+      "url": "https://flowli.studio/",
+      "domain": "flowli.studio",
+      "category": "Technology & business",
+      "initials": "FS",
+      "detail": "flowli.studio",
+      "logo": "/assets/logos/flowli-studio.png",
+      "logoSource": "https://framerusercontent.com/images/O6T8tHkYmARxWXFSjEuidryxtpU.png",
+      "logoReview": "Official site favicon, resized to 160px. Verified 2026-09-29"
+    },
+    {
       "name": "Four Symmetrons",
       "url": "https://www.foursymmetrons.com",
       "domain": "foursymmetrons.com",
@@ -714,6 +728,17 @@
       "logo": "/assets/logos/naamche-com.png"
     },
     {
+      "name": "Naamche Labs",
+      "url": "https://naamchelabs.com/",
+      "domain": "naamchelabs.com",
+      "category": "Technology & business",
+      "initials": "NL",
+      "detail": "naamchelabs.com",
+      "logo": "/assets/logos/naamche-labs.svg",
+      "logoSource": "https://naamchelabs.com/favicon.svg",
+      "logoReview": "Official favicon verified 2026-09-29"
+    },
+    {
       "name": "Nepal Tea Collective",
       "url": "https://www.nepalteacollective.com",
       "domain": "nepalteacollective.com",
@@ -773,16 +798,6 @@
       "initials": "N",
       "detail": "niural.com",
       "logo": "/assets/logos/niural-com.png"
-    },
-    {
-      "name": "One Point",
-      "url": "https://www.onepoint.com.np",
-      "domain": "onepoint.com.np",
-      "category": "Technology & business",
-      "logoSource": "https://www.google.com/s2/favicons?domain=onepoint.com.np&sz=128",
-      "initials": "OP",
-      "detail": "onepoint.com.np",
-      "logo": "/assets/logos/onepoint-com-np.png"
     },
     {
       "name": "OnePoint Financial",
@@ -2053,13 +2068,13 @@
       "logo": "/assets/logos/cyber-fund.png"
     },
     {
-      "name": "DBA:",
-      "url": "https://dbaventures.com",
-      "domain": "dbaventures.com",
-      "logoSource": "",
+      "name": "DBA",
+      "url": "https://dba.xyz/",
+      "domain": "dba.xyz",
+      "logoSource": "https://dba.xyz/ (header SVG)",
       "category": "Venture & private capital",
-      "logo": null,
-      "logoReview": "Removed GoDaddy parked-domain favicon; official mark unresolved"
+      "logo": "/assets/logos/dba.svg",
+      "logoReview": "Official header wordmark with its computed light-theme fill. Blank favicon excluded. Verified 2026-09-29"
     },
     {
       "name": "Dolma Fund",
@@ -2207,6 +2222,15 @@
       "logo": "/assets/logos/nfx-com.png"
     },
     {
+      "name": "r0 Capital",
+      "url": "https://r0capital.com/",
+      "domain": "r0capital.com",
+      "logoSource": "https://cdn.prod.website-files.com/68781358038f204ba6842b97/690180699f9ce28bfd733c3b_Group%201.png",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/r0-capital.png",
+      "logoReview": "Official website asset verified 2026-09-29"
+    },
+    {
       "name": "Race Capital",
       "url": "https://race.capital",
       "domain": "race.capital",
@@ -2248,12 +2272,12 @@
     },
     {
       "name": "Tectonic Capital",
-      "url": "https://tectoniccapital.com",
-      "domain": "tectoniccapital.com",
-      "logoSource": "",
+      "url": "https://tectonic.vc/",
+      "domain": "tectonic.vc",
+      "logoSource": "https://tectonic.vc/images/83f4dc83456a16b2dbf736988754c52d.svg",
       "category": "Venture & private capital",
-      "logo": null,
-      "logoReview": "Removed GoDaddy parked-domain favicon; official mark unresolved"
+      "logo": "/assets/logos/tectonic-symbol.svg",
+      "logoReview": "Official blue symbol cropped from the published wordmark. Generic site-builder favicon excluded. Verified 2026-09-29"
     },
     {
       "name": "Together Fund",
@@ -2272,20 +2296,13 @@
       "logo": "/assets/logos/tq-vc.png"
     },
     {
-      "name": "Uncorrelated Capital",
-      "url": "https://uncorrelatedvc.com",
-      "domain": "uncorrelatedvc.com",
-      "logoSource": "https://www.google.com/s2/favicons?domain=uncorrelatedvc.com&sz=128",
-      "category": "Venture & private capital",
-      "logo": "/assets/logos/uncorrelatedvc-com.png"
-    },
-    {
       "name": "Uncommon Capital",
-      "url": "https://uncommon.vc",
-      "domain": "uncommon.vc",
-      "logoSource": "https://www.google.com/s2/favicons?domain=uncommon.vc&sz=128",
+      "url": "https://investuncommon.com/",
+      "domain": "investuncommon.com",
+      "logoSource": "https://investuncommon.com/images/favicon.jpg",
       "category": "Venture & private capital",
-      "logo": "/assets/logos/uncommon-vc.png"
+      "logo": "/assets/logos/uncommon-capital.jpg",
+      "logoReview": "Official website asset verified 2026-09-29"
     },
     {
       "name": "Weatherford Capital",

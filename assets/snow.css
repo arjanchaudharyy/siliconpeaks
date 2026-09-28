@@ -346,6 +346,8 @@ body.light{--snow:#1d3043;--mist:#495e72;--mist-lo:#526b82;--line:#d7e1ea;--sky-
 .uni-pill,body.light .uni-pill,.inv-name,body.light .inv-name{border-radius:0;min-height:52px;font-size:13px;border-color:var(--line);box-shadow:none;transition:background .18s,border-color .18s}
 .uni-pill:hover,.inv-name:hover{transform:none;box-shadow:none}
 .uni-fav,.inv-fav,.funding-title img,.champ-fav{border-radius:0}
+img.inv-fav,img.co-fav{padding:0!important;object-fit:contain}
+#investors .inv-fav{width:28px;height:28px;flex:0 0 28px}
 .champ-card,body.light .champ-card{border-radius:0;box-shadow:none;border-color:var(--line);transition:background .18s,border-color .18s}
 .champ-card:hover{transform:none;box-shadow:none}
 .capital-notes{gap:0;border-block:1px solid var(--line);margin:32px 0 48px}

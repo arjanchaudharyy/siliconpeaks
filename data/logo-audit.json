@@ -137,12 +137,13 @@
     "source": "https://www.google.com/s2/favicons?domain=adex.ltd&sz=128"
   },
   {
-    "name": "AITC Intl",
+    "name": "AITC International",
     "group": "companies",
-    "path": "/assets/logos/aitcint-com.png",
-    "available": false,
-    "bytes": 0,
-    "source": "https://www.google.com/s2/favicons?domain=aitcint.com&sz=128"
+    "path": "/assets/logos/aitc-international.svg",
+    "available": true,
+    "bytes": 3966,
+    "source": "https://aitc.ai/ (header SVG)",
+    "review": "Official website asset verified 2026-09-29"
   },
   {
     "name": "Alaya",
@@ -153,12 +154,13 @@
     "source": "https://www.google.com/s2/favicons?domain=alaya.co&sz=128"
   },
   {
-    "name": "Alpas Tech",
+    "name": "Alpas Technology",
     "group": "companies",
-    "path": "/assets/logos/alpastechnology-com.png",
+    "path": "/assets/logos/alpas-technology.png",
     "available": true,
-    "bytes": 1148,
-    "source": "https://www.google.com/s2/favicons?domain=alpastechnology.com&sz=128"
+    "bytes": 5506,
+    "source": "https://alpastechnology.com/assets/favicon.png",
+    "review": "Official white logo placed on a dark background for visibility. Verified 2026-09-29"
   },
   {
     "name": "Alpen Labs",
@@ -187,10 +189,11 @@
   {
     "name": "ARKBO Tech",
     "group": "companies",
-    "path": "/assets/logos/arkbo-com-np.png",
-    "available": false,
-    "bytes": 0,
-    "source": "https://www.google.com/s2/favicons?domain=arkbo.com.np&sz=128"
+    "path": "/assets/logos/arkbo-tech.png",
+    "available": true,
+    "bytes": 17503,
+    "source": "https://www.arkbotech.com/icon.png",
+    "review": "Official website asset verified 2026-09-29"
   },
   {
     "name": "Architect Labs",
@@ -618,14 +621,6 @@
     "available": true,
     "bytes": 1604,
     "source": "https://www.google.com/s2/favicons?domain=niural.com&sz=128"
-  },
-  {
-    "name": "One Point",
-    "group": "companies",
-    "path": "/assets/logos/onepoint-com-np.png",
-    "available": true,
-    "bytes": 1632,
-    "source": "https://www.google.com/s2/favicons?domain=onepoint.com.np&sz=128"
   },
   {
     "name": "OnePoint Financial",
@@ -1726,13 +1721,13 @@
     "source": "https://www.google.com/s2/favicons?domain=cyber.fund&sz=128"
   },
   {
-    "name": "DBA:",
+    "name": "DBA",
     "group": "investors",
-    "path": "",
-    "available": false,
-    "bytes": 0,
-    "source": "",
-    "review": "Removed GoDaddy parked-domain favicon; official mark unresolved"
+    "path": "/assets/logos/dba.svg",
+    "available": true,
+    "bytes": 1723,
+    "source": "https://dba.xyz/ (header SVG)",
+    "review": "Official header wordmark with its computed light-theme fill. Blank favicon excluded. Verified 2026-09-29"
   },
   {
     "name": "Dolma Fund",
@@ -1922,11 +1917,11 @@
   {
     "name": "Tectonic Capital",
     "group": "investors",
-    "path": "",
-    "available": false,
-    "bytes": 0,
-    "source": "",
-    "review": "Removed GoDaddy parked-domain favicon; official mark unresolved"
+    "path": "/assets/logos/tectonic-symbol.svg",
+    "available": true,
+    "bytes": 6852,
+    "source": "https://tectonic.vc/images/83f4dc83456a16b2dbf736988754c52d.svg",
+    "review": "Official blue symbol cropped from the published wordmark. Generic site-builder favicon excluded. Verified 2026-09-29"
   },
   {
     "name": "Together Fund",
@@ -1945,20 +1940,22 @@
     "source": "https://www.google.com/s2/favicons?domain=tq.vc&sz=128"
   },
   {
-    "name": "Uncorrelated Capital",
+    "name": "r0 Capital",
     "group": "investors",
-    "path": "/assets/logos/uncorrelatedvc-com.png",
-    "available": false,
-    "bytes": 0,
-    "source": "https://www.google.com/s2/favicons?domain=uncorrelatedvc.com&sz=128"
+    "path": "/assets/logos/r0-capital.png",
+    "available": true,
+    "bytes": 3830,
+    "source": "https://cdn.prod.website-files.com/68781358038f204ba6842b97/690180699f9ce28bfd733c3b_Group%201.png",
+    "review": "Official website asset verified 2026-09-29"
   },
   {
     "name": "Uncommon Capital",
     "group": "investors",
-    "path": "/assets/logos/uncommon-vc.png",
-    "available": false,
-    "bytes": 0,
-    "source": "https://www.google.com/s2/favicons?domain=uncommon.vc&sz=128"
+    "path": "/assets/logos/uncommon-capital.jpg",
+    "available": true,
+    "bytes": 2134,
+    "source": "https://investuncommon.com/images/favicon.jpg",
+    "review": "Official website asset verified 2026-09-29"
   },
   {
     "name": "Weatherford Capital",
@@ -2224,5 +2221,23 @@
     "available": true,
     "bytes": 1465,
     "source": ""
+  },
+  {
+    "name": "Naamche Labs",
+    "group": "companies",
+    "path": "/assets/logos/naamche-labs.svg",
+    "available": true,
+    "bytes": 346,
+    "source": "https://naamchelabs.com/favicon.svg",
+    "review": "Official favicon verified 2026-09-29"
+  },
+  {
+    "name": "Flowli Studio",
+    "group": "companies",
+    "path": "/assets/logos/flowli-studio.png",
+    "available": true,
+    "bytes": 2958,
+    "source": "https://framerusercontent.com/images/O6T8tHkYmARxWXFSjEuidryxtpU.png",
+    "review": "Official site favicon, resized to 160px. Verified 2026-09-29"
   }
 ]
