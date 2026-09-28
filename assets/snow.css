@@ -260,6 +260,10 @@ footer .peaks-section .peak-credit{min-height:24px}
 .section-divider>svg{display:block;flex:none;width:42px;height:18px}
 .section-divider+section,body.light .section-divider+section{border-top:0}
 #investors,body.light #investors{border-bottom:0}
+#globe-section,#events,body.light #globe-section,body.light #events{border-bottom:0}
+main>section:has(+.section-divider)>.w-full{padding-bottom:40px}
+.section-divider+section>.w-full{padding-top:40px}
+#manifesto-2 .thesis-layout{padding-bottom:40px}
 @media(max-width:1280px){.section-divider{margin-inline:44px}}
 @media(max-width:700px){.section-divider{margin-inline:22px}.contribute-link{margin-top:24px;padding-top:12px}.contrib-trigger{padding:12px 17px}}
 @media(max-width:600px){.contrib-modal-overlay{padding:16px}.contrib-modal{max-height:calc(100dvh - 32px);padding:25px 22px}.contrib-title{font-size:25px;margin-top:22px}.contrib-desc{font-size:12px}.contrib-email-row{gap:8px;padding:12px}.contrib-email{font-size:11px}.contrib-copy{padding:8px;font-size:10px}.contrib-checklist li{font-size:11px}}
