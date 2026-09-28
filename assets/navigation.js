@@ -2,7 +2,10 @@
 const measuredNav=document.getElementById('nav');
 if(measuredNav&&window.ResizeObserver)new ResizeObserver(([entry])=>{
  const height=(entry.borderBoxSize?.[0]?.blockSize??entry.contentRect.height)+16;
- document.documentElement.style.setProperty('--chrome-h',height+'px');
+ const value=height+'px';
+ if(document.documentElement.style.getPropertyValue('--chrome-h')===value)return;
+ document.documentElement.style.setProperty('--chrome-h',value);
+ document.querySelector('.peaks-sticky')?.style.setProperty('--chrome-h',value);
 }).observe(measuredNav);
 
 // Mobile / tablet nav — real collapse, keep menu state accessible.
