@@ -21,6 +21,6 @@ The company directory explicitly distinguishes companies operating in Nepal from
 
 ## Publication and measurement
 
-The official canonical remains `https://siliconpeaks.com`. The separate Vercel review build sets `X-Robots-Tag: noindex, nofollow` and disallows crawling in its robots file so the review copy does not compete with the original domain.
+The official canonical remains `https://siliconpeaks.com`. At the owner’s request, the public Vercel beta now allows crawling and has no noindex response header. Its social images resolve from the beta deployment. Canonical consolidation and search rankings remain decisions for search engines; a Lighthouse SEO score is a technical check, not a traffic forecast.
 
 After the maintainers merge and publish the official site, submit its sitemap to their Search Console property, inspect the four URLs, and compare queries, impressions, click-through rates and clicks after enough traffic accumulates. Measure Core Web Vitals on the deployed site. No Search Console account changes or analytics tracking are included here.

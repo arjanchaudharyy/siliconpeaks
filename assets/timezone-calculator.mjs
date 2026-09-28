@@ -49,5 +49,5 @@ export function initCalculator(){
  date.addEventListener('change',()=>{render();feedback.textContent='Working hours updated for '+date.value+'.'});
  document.getElementById('tz-today').addEventListener('click',()=>{date.value=today;render()});
  document.getElementById('tz-city-count').textContent=`Search ${cities.length}+ cities by name, country or timezone.`;
- render();feedback.textContent='';
+ render();feedback.textContent='';if(input.value)suggestions();
 }
